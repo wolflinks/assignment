@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+body {
+    background:  url(../IMG/bg.jpg) no-repeat;
+    font-weight: 500;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+#heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position: relative;
+    font-size: 40px;
+}
+#sub_heading {
+    font-size: 24px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.container {
+    text-align: left;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 550px;
+}
+.bold {
+    font-weight: 600;
+}
+.links {
+    background-color: rgb(155, 200, 255);
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid rgb(155, 200, 255);
+    border-width: 2px;
+    border-radius: 40px;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    font-weight: 600;
+    margin-right: auto;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}.links:hover {
+    background: none;
+    color: rgb(155, 200, 255);
+}
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+.points {
+    text-decoration: underline;
+}
+.contact {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
 body {
-    background:  url(../IMG/bg.jpg) no-repeat;
+    background:  url(IMG/bg.jpg) no-repeat;
     font-weight: 500;
     font-family: 'Josefin Slab', serif;
     text-align: center;
